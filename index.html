@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Códigos QR</title>
+   <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Códigos QR</h1>
+        <p class="brand-text">Luciano CM Inteligencia</p> <input type="text" id="qr-text" placeholder="Introduce el texto o URL para el QR">
+        <button id="generate-btn">Generar QR</button>
+        <div id="qr-code"></div>
+    </div>
+
+    <p class="footer-text">Producto registrado. Mirar condiciones de uso: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons Attribution-NonCommercial 4.0 International License</a></p>
+
+    <script src="src/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+</html>
